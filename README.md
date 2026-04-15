@@ -23,6 +23,8 @@ SharedMap is a parallel shared-memory algorithm for hierarchical process mapping
 Process Mapping concerns itself with mapping tasks of a task graph, where weighted vertices represent tasks and weighted edges the amount of communicated data, to the cores of a supercomputer.
 In hierarchical process mapping the hierarchy of the supercomputer (often islands, racks, nodes and cores) is exploited for more efficient mapping algorithms.  Part of the [KaHIP](https://github.com/KaHIP) organization. 
 
+> **Python Interface:** An easy-to-use Python interface for this software is available in [CHSZLabLib](https://github.com/CHSZLab/CHSZLabLib).
+
 ### General Process Mapping
 Given 
 - Undirected graph $G = (V, E)$ with
